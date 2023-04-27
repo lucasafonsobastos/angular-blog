@@ -67,6 +67,24 @@ button {
 	flex-direction: column;
 }
 
+.header-user {
+	display: none;
+	flex-direction: row;
+	margin-left: .8rem;
+	align-items: center;
+}
+
+.header-user hr {
+	height: 2rem;
+	opacity: .5;
+}
+
+.header-user img {
+	width: 2.5rem;
+	margin-left: 1rem;
+	border-radius: 3rem;
+}
+
 @media (min-width: 520px) {
 	.header-center {
 		display: flex;
@@ -82,4 +100,9 @@ button {
 	.search-header {
 		margin-bottom: 0;
 	}
+	.header-user {
+		display: flex;
+	}
 }
+
+
