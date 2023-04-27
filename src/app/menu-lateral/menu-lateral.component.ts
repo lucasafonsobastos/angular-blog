@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./menu-lateral.component.css']
 })
 export class MenuLateralComponent {
-
+	visible:boolean = false;
+	constructor(){
+		this.visible;
+	}
 }
