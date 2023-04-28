@@ -1,6 +1,6 @@
 * {
-	height: 100vh;
-	width: 100vh;
+
+	width: 100vw;
 }
 
 app-header {
@@ -13,8 +13,18 @@ app-header {
 }
 
 app-menu-lateral {
-	height: 100vh;
-	width: 100%;
+	width: 5rem;
 	background-color: whitesmoke;
+	position: absolute;
+	z-index: 2;
+	left: -5rem;
 }
 
+.content-home {
+	display: flex;
+	flex-direction: row;
+}
+
+.content-news li {
+	height: 100%;
+}
