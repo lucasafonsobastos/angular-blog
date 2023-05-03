@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
-import { NewsCategoriasComponent } from './news-categorias/news-categorias.component';
-import { CardNewsComponent } from './card-news/card-news.component';
-import { ArtigosComponent } from './pages/artigos/artigos.component';
+import { HeaderComponent } from './components/header/header.component';
+import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.component';
+import { NewsCategoriasComponent } from './components/news-categorias/news-categorias.component';
+import { CardNewsComponent } from './components/card-news/card-news.component';
+import { HomeComponent } from './pages/home/home.component';
+import { NovoPostComponent } from './components/novo-post/novo-post.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ArtigosComponent } from './pages/artigos/artigos.component';
     MenuLateralComponent,
     NewsCategoriasComponent,
     CardNewsComponent,
-    ArtigosComponent
+	HomeComponent,
+ NovoPostComponent,
+ FooterComponent
   ],
   imports: [
     BrowserModule,

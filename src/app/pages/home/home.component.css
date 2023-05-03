@@ -1,12 +1,14 @@
+
+
 .content-opcao {
 	display: flex;
 	width: 100%;
 }
 
 .content-news {
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
 }
 
 .content-news li {
@@ -19,6 +21,7 @@
 	list-style: none;
 	justify-content: center;
 	justify-items: center;
+	margin-left: 1rem;
 }
 
 @media screen and (min-width: 520px){
