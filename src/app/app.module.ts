@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 import { NewsCategoriasComponent } from './news-categorias/news-categorias.component';
 import { CardNewsComponent } from './card-news/card-news.component';
+import { ArtigosComponent } from './pages/artigos/artigos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardNewsComponent } from './card-news/card-news.component';
     HeaderComponent,
     MenuLateralComponent,
     NewsCategoriasComponent,
-    CardNewsComponent
+    CardNewsComponent,
+    ArtigosComponent
   ],
   imports: [
     BrowserModule,
