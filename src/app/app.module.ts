@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
+import { NewsCategoriasComponent } from './news-categorias/news-categorias.component';
+import { CardNewsComponent } from './card-news/card-news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MenuLateralComponent
+    MenuLateralComponent,
+    NewsCategoriasComponent,
+    CardNewsComponent
   ],
   imports: [
     BrowserModule,
