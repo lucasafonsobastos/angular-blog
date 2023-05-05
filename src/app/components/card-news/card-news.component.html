@@ -7,12 +7,12 @@
 		</div>
 	</div>
 	<div class="card-img">
-		<img  src="../../assets/img/capa2.jpg" />
+		<img  src="{{ photoCover }}" />
 	</div>
-	<h3 class="card-titulo">Título da postagem do blog</h3>
-	<p class="card-text">Aqui eu vou escrever uma prévia do artigo, e essa prérevia nao pode passar de 3 linhas </p>
+	<h3 class="card-titulo">{{ cardTitle }}</h3>
+	<p class="card-text">{{ cardDescription }}</p>
 	<div class="card-dados">
 		<span>27/04/2023</span>
-		<h5>Lucas Afonso</h5>
+		<h5>{{ cardAutor }}</h5>
 	</div>
 </div>

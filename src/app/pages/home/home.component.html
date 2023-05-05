@@ -1,14 +1,21 @@
-
 <div class="content-news">
-	<div class="content-opcao">
-		<app-news-categorias></app-news-categorias>
+	<div>
+		<div class="content-opcao">
+			<app-news-categorias></app-news-categorias>
+		</div>
+		<div class="content-cards">
+			<ul>
+				<li><app-card-news
+					photoCover="../../../assets/img/capa2.jpg"
+					cardTitle=" Titula do artigo"
+					cardDescription=" Esta é a descrição do meu Card."
+					cardAutor="Nome do Autor"
+					></app-card-news></li>
+			</ul>
+		</div>
 	</div>
-	<div class="content-cards">
-		<ul>
-			<li><app-card-news></app-card-news></li>
-			<li><app-card-news></app-card-news></li>
-			<li><app-card-news></app-card-news></li>
-			<li><app-card-news></app-card-news></li>
-		</ul>
+	<div>
+		<app-novo-post></app-novo-post>
 	</div>
+
 </div>

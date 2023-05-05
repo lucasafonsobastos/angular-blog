@@ -1,16 +1,19 @@
+
+
 .content-opcao {
 	display: flex;
 	width: 100%;
 }
 
 .content-news {
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	flex-direction: row;
 }
 
 .content-news li {
-	margin: 1rem;
+	height: 100%;
+	margin: .5rem;
 }
 
 .content-news ul {
@@ -18,10 +21,15 @@
 	list-style: none;
 	justify-content: center;
 	justify-items: center;
+	margin-left: 1rem;
 }
 
 @media screen and (min-width: 520px){
 	.content-news ul {
 		grid-template-columns: 1fr 1fr;
 	}
+}
+
+@media screen and (min-width: 780px){
+
 }

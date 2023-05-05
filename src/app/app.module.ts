@@ -8,7 +8,8 @@ import { MenuLateralComponent } from './components/menu-lateral/menu-lateral.com
 import { NewsCategoriasComponent } from './components/news-categorias/news-categorias.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
 import { HomeComponent } from './pages/home/home.component';
-import { ArtigosComponent } from './pages/artigos/artigos.component';
+import { NovoPostComponent } from './components/novo-post/novo-post.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +18,9 @@ import { ArtigosComponent } from './pages/artigos/artigos.component';
     MenuLateralComponent,
     NewsCategoriasComponent,
     CardNewsComponent,
-    HomeComponent,
-    ArtigosComponent
+	HomeComponent,
+ 	NovoPostComponent,
+ 	FooterComponent
   ],
   imports: [
     BrowserModule,
