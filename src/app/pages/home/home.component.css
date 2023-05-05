@@ -1,0 +1,27 @@
+.content-opcao {
+	display: flex;
+	width: 100%;
+}
+
+.content-news {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.content-news li {
+	margin: 1rem;
+}
+
+.content-news ul {
+	display: grid;
+	list-style: none;
+	justify-content: center;
+	justify-items: center;
+}
+
+@media screen and (min-width: 520px){
+	.content-news ul {
+		grid-template-columns: 1fr 1fr;
+	}
+}

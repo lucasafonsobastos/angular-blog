@@ -50,3 +50,13 @@ hr {
 	border: 0;
 	margin: 1rem 0;
 }
+
+@keyframes deslizar {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
