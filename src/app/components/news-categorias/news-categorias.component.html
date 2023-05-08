@@ -4,10 +4,7 @@
 	</div>
 	<div class="categoria-menu">
 		<ul>
-			<li>Contos <span></span></li>
-			<li>Educativo</li>
-			<li>Pessoal</li>
-			<li>Versos</li>
+			<li *ngFor="let item of categorias" (click)="onClick(item)" id="{{ item }}"> {{ item }} </li>
 		</ul>
 	</div>
 

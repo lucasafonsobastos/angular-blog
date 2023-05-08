@@ -5,17 +5,18 @@
 		</div>
 		<div class="content-cards">
 			<ul>
-				<li><app-card-news
-					photoCover="../../../assets/img/capa2.jpg"
-					cardTitle=" Titula do artigo"
-					cardDescription=" Esta é a descrição do meu Card."
-					cardAutor="Nome do Autor"
-					></app-card-news></li>
+				<li *ngFor="let item of meusAtigos">
+					<app-card-news
+					id="{{ item.id }}"
+					cardTitle="{{ item.titulo}}"
+					cardDescription="{{ item.description }}"
+					photoCover="{{ item.image }}"
+					cardAutor="{{ item.autor }}"
+					cardData="{{ item.data }}"
+					></app-card-news>
+				</li>
 			</ul>
 		</div>
-	</div>
-	<div>
-		<app-novo-post></app-novo-post>
 	</div>
 
 </div>

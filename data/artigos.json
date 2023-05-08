@@ -1,0 +1,42 @@
+[
+	{
+	  "id": 1,
+	  "titulo": "Curiosidade. Pratique essa ideia.",
+	  "description": "Exercitar a curiosidade é um fator muito importante para estimular nossa genialidade pessoal. Seguindo o Tema anterior de lapidar a pedra preciosa que somos",
+	  "artigo": "1.html",
+	  "image": "http://1.bp.blogspot.com/-1doXJnBWc3I/VodFr_rC0cI/AAAAAAAAA40/mNulbbTxnxs/s1600/camiseta-estampa-george-curioso-curious-george-9190-MLB20012112573_112013-F.jpg",
+	  "autor": "Lucas Afonso",
+	  "data": "02/01/2016",
+	  "categoria": "Educativo"
+	},
+	{
+	  "id": "2",
+	  "titulo": "Lapidando",
+	  "description": "Uma coisa é certa. Todos nós somos únicos, possuímos algo que nos difere uns dos outros, não é só uma característica como: a assinatura, a digital, entre outros.",
+	  "artigo": "4.html",
+	  "image": "http://2.bp.blogspot.com/-dHyWyOJHZTA/VoRwtFri7mI/AAAAAAAAA3A/7zv2r_7plNQ/s1600/lapidar.jpg",
+	  "autor": "Lucas Afonso",
+	  "data": "30/12/2015",
+	  "categoria": "Educativo"
+	},
+	{
+	  "id": "3",
+	  "titulo": "Um passo para frente, dois para traz",
+	  "description": "Um passo para frente, dois para traz. É assim que a sociedade atual tem caminhado. Questionam e discutem sobre coisas básicas dando impacto tão faraônico ",
+	  "artigo": "3.html",
+	  "image": "http://3.bp.blogspot.com/-FSL5VYTCSiI/VZRjh7E3m_I/AAAAAAAAAlA/AUE_SvYWOeU/s1600/97m.jpg",
+	  "autor": "Lucas Afonso",
+	  "data": "01/07/2015",
+	  "categoria": "Artigo"
+	},
+	{
+	  "id": "4",
+	  "titulo": "Ternos e Gravatas",
+	  "description": "Estava prestes a deitar, dormir, mas uma coisa que passou pela mente chamou a atenção para frente do computador de novo.",
+	  "artigo": "2.html",
+	  "image": "http://1.bp.blogspot.com/-G3ljNevV5LU/U7JDzg41oSI/AAAAAAAAAb8/38bEMwPxapo/s1600/terno.jpg",
+	  "autor": "Lucas Afonso",
+	  "data": "01/07/2014",
+	  "categoria": "Pessoal"
+	}
+]

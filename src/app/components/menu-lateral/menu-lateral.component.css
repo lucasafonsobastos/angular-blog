@@ -1,11 +1,11 @@
 .content-menu-lateral {
 	background-color: whitesmoke;
 	width: 5rem;
-	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	color: rgb(102, 102, 102);
+	height: 68vw;
 }
 
 .ico-menu-lateral {

@@ -9,6 +9,7 @@
     flex-direction: column;
 	justify-content: space-between;
 	cursor: pointer;
+	position: relative;
 }
 
 .content-card:hover {
@@ -67,7 +68,11 @@
 .card-text {
 	font-size: small;
 	text-align: justify;
-	max-lines: 3;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
 }
 
 .card-dados {
@@ -77,4 +82,14 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    height: 100%;
 }

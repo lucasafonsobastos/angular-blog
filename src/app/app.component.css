@@ -9,12 +9,21 @@ app-header {
 
 app-menu-lateral {
 	width: 5rem;
-	background-color: whitesmoke;
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+	display: none;
 }
 
 .content-home {
 	display: flex;
-	flex-direction: row;
+    flex-direction: row;
+    height: 68vh;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 0.5rem;
+    padding: 0 1rem;
+    overflow: overlay;
 }
 
 .content-opcao {
@@ -50,6 +59,22 @@ app-menu-lateral {
 	}
 }
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 760px){
+	app-menu-lateral {
+		display: block;
+	}
+
+	.content-home {
+		padding-left: 6rem;
+		height: 78vh;
+	}
+
+}
+
+@media screen and (min-width: 1020px){
+
+	.content-home {
+		height: 82vh;
+	}
 
 }
